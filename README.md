@@ -1,6 +1,6 @@
-# LibCipher
+# libcipher
 
-LibCipher provides high-level abstractions for common cryptographic operations.
+libbipher provides high-level abstractions for common cryptographic operations.
 It is designed to facilitate sensitive message handling such as encryption, decryption, and signing.
 
 ## Features
@@ -75,7 +75,7 @@ func main() {
 	fmt.Println("Decrypted message:", string(decryptedText))
 }
 ```
-For other cryptographic primitives such as AES-GCM, refer to the [tests](tests/) for more detailed usage.
+For other cryptographic primitives such as AES-GCM, refer to the [tests](cipher_test.go/) for more detailed usage.
 
 ## Roadmap
 - **planned: asymmetric encryption**
